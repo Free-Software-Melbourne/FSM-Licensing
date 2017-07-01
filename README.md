@@ -1,5 +1,5 @@
-# Presentation on InstallFests using Reveal.js and HTML
-- Avaliable online with [gh-pages](https://puzzleduck.github.io/FSM-Installfest/)
+# Presentation on Software Licencing for Free Software Melbourne
+- Avaliable online with [gh-pages](https://puzzleduck.github.io/FSM-Licensing/)
 
 ### reveal.js features used
 - [nested slides](https://github.com/hakimel/reveal.js#markup)
@@ -296,33 +296,6 @@ Reveal.addEventListener( 'ready', function( event ) {
 
 Note that we also add a `.ready` class to the `.reveal` element so that you can hook into this with CSS.
 
-### Auto-sliding
-
-Presentations can be configured to progress through slides automatically, without any user input. To enable this you will need to tell the framework how many milliseconds it should wait between slides:
-
-```javascript
-// Slide every five seconds
-Reveal.configure({
-  autoSlide: 5000
-});
-```
-When this is turned on a control element will appear that enables users to pause and resume auto-sliding. Alternatively, sliding can be paused or resumed by pressing »a« on the keyboard. Sliding is paused automatically as soon as the user starts navigating. You can disable these controls by specifying ```autoSlideStoppable: false``` in your reveal.js config.
-
-You can also override the slide duration for individual slides and fragments by using the ```data-autoslide``` attribute:
-
-```html
-<section data-autoslide="2000">
-	<p>After 2 seconds the first fragment will be shown.</p>
-	<p class="fragment" data-autoslide="10000">After 10 seconds the next fragment will be shown.</p>
-	<p class="fragment">Now, the fragment is displayed for 2 seconds before the next slide is shown.</p>
-</section>
-```
-
-To override the method used for navigation when auto-sliding, you can specify the ```autoSlideMethod``` setting. To only navigate along the top layer and ignore vertical slides, set this to ```Reveal.navigateRight```.
-
-Whenever the auto-slide mode is resumed or paused the ```autoslideresumed``` and ```autoslidepaused``` events are fired.
-
-
 ### Keyboard Bindings
 
 If you're unhappy with any of the default keyboard bindings you can override them using the ```keyboard``` config option:
@@ -335,30 +308,6 @@ Reveal.configure({
     32: null // don't do anything when SPACE is pressed (i.e. disable a reveal.js default binding)
   }
 });
-```
-
-### Touch Navigation
-
-You can swipe to navigate through a presentation on any touch-enabled device. Horizontal swipes change between horizontal slides, vertical swipes change between vertical slides. If you wish to disable this you can set the `touch` config option to false when initializing reveal.js.
-
-If there's some part of your content that needs to remain accessible to touch events you'll need to highlight this by adding a `data-prevent-swipe` attribute to the element. One common example where this is useful is elements that need to be scrolled.
-
-
-### Lazy Loading
-
-When working on presentation with a lot of media or iframe content it's important to load lazily. Lazy loading means that reveal.js will only load content for the few slides nearest to the current slide. The number of slides that are preloaded is determined by the `viewDistance` configuration option.
-
-To enable lazy loading all you need to do is change your "src" attributes to "data-src" as shown below. This is supported for image, video, audio and iframe elements. Lazy loaded iframes will also unload when the containing slide is no longer visible.
-
-```html
-<section>
-  <img data-src="image.png">
-  <iframe data-src="http://hakim.se"></iframe>
-  <video>
-    <source data-src="video.webm" type="video/webm" />
-    <source data-src="video.mp4" type="video/mp4" />
-  </video>
-</section>
 ```
 
 
@@ -1124,10 +1073,3 @@ Some reveal.js features, like external Markdown and speaker notes, require that 
 - **js/** Like above but for JavaScript
 - **plugin/** Components that have been developed as extensions to reveal.js
 - **lib/** All other third party assets (JavaScript, CSS, fonts)
-
-
-## License
-
-MIT licensed
-
-Copyright (C) 2017 Hakim El Hattab, http://hakim.se
