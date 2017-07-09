@@ -15,7 +15,6 @@ usually only for a limited time and varies by jurisdiction
 
 automatic assignment
 
----
 
 ### What is a license?
 
@@ -32,7 +31,6 @@ legal terms
 
 selectively grants rights to users
 
----
 
 ### What is the difference?
 
@@ -49,7 +47,6 @@ licenses use copyright
 
 licences spread rights to users
 
----
 
 ### Why license?
 

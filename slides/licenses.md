@@ -21,9 +21,6 @@ study, run, modify and redistribute
 Open source only protects the rights to study the source
 
 
----
-
-
 ### GPL
 
 <hr />
@@ -50,9 +47,6 @@ LGPL
 AGPL
 
 
----
-
-
 ### MIT
 
 <hr />
@@ -67,9 +61,6 @@ Note:
 MIT - Open Source, not Free software
 
 Allows inclusion in proprietary works
-
-
----
 
 
 ### Creative Commons

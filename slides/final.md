@@ -1,22 +1,29 @@
-# Second Last
+### Patents and Other issues
 
 <hr />
 
-- Summary
-- In List
-- Form
+Other Considerations
+
+- Patent Protection
+- Trademark
+- or just want to learn more
 
 Note:
-Summary
+Patents
 
----
+Trademarks
 
-# Last
+
+# More information and discussion
 
 <hr />
 
-- Contact
-- Meeting Times
+- Free Software Melbourne
+- http://freesoftware.org.au
 
 Note:
-Stop talking now
+freesoftware.org.au
+
+meetup every third Thursday of the month
+
+If your interested to hear more come find us after the introductions
