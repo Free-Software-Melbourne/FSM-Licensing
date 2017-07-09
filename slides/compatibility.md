@@ -1,9 +1,9 @@
-### License compatibility
+### License Compatibility
 
 <hr />
 
 In a GPL3 work
-- GLP?
+- GPL - any
 - MIT
 
 In an MIT work

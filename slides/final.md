@@ -1,20 +1,20 @@
-### Patents and Other issues
+### Patents and Other Issues
 
 <hr />
 
 Other Considerations
 
 - Patent Protection
-- Trademark
+- Trademarks
 - or just want to learn more
 
 Note:
-Patents
+There are plenty of legal concerns we haven't covered today, amongst them are Patents and Trademarks
 
-Trademarks
+or maybe you just find it interesting and want to learn more
 
 
-# More information and discussion
+### More Information and Discussion
 
 <hr />
 
