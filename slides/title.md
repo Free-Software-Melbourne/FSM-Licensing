@@ -3,7 +3,7 @@
 ### Copyright Matters!
 <img src=slides/img/FSM_logo.png width="40%">
 
-##### GovHack 2017
+##### Designing Open Democracy 2018
 
 Note:
 Title screen

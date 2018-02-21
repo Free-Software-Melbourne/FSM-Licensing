@@ -1,5 +1,5 @@
 # Presentation on Software Licencing for Free Software Melbourne
-- Avaliable online with [gh-pages](https://puzzleduck.github.io/FSM-Licensing/)
+- Avaliable online with [gh-pages](https://free-software-melbourne.github.io/FSM-Licensing/)
 
 ### reveal.js features used
 - [nested slides](https://github.com/hakimel/reveal.js#markup)
